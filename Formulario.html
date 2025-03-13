@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Formulario 
+        </h1>
+        <hr>
+            <nav>
+            <ul style="font-size: 20px; font-family: Georgia, 'Times New Roman', Times, serif">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="TablaInformacion.html">Tabla De Información</a></li>
+                <li><a href="Formulario.html">Formulario</a></li>
+            </ul>
+            </nav>
+    </header>
+    <hr>
+    <center>
+    <header>
+        <h1>
+            Formulario
+        </h1>
+    </header>
+    <form action="" method="get" enctype="multipart/form-data">
+        <fieldset style="padding: 10px; margin: 50px;">
+            <legend>Formulario</legend>
+        <div>
+            <label for="nombre" style="font-size: 20px;">Nombre</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+        </div>
+        <br>
+        <div>
+            <label for="apellidos" style="font-size: 20px;">Apellidos</label>
+            <input type="text" name="apellidos" id="apellidos" placeholder="Apellidos">
+        </div>
+        <br>
+        <div>
+            <label for="telefono" style="font-size: 20px;">Teléfono</label>
+            <input type="tel" name="telefono" id="telefono" required placeholder="Teléfono">
+        </div>
+        <br>
+        <div>
+            <label for="direccion" style="font-size: 20px;">Dirección</label>
+            <input type="text" name="direccion" id="direccion" required placeholder="Dirección">
+        </div>
+        <br>
+        <label for="mensaje" style="font-size: 20px;">Gustos Personales</label>
+        <br>
+        <div>
+            <br>
+            <textarea name="gustos" id="gustos" rows="10" placeholder="Ingrese sus Gustos"></textarea>
+        </div>
+        <label for="sexo" style="font-size: 20px;">Seleccione su Sexo</label>
+        <div>
+            <br>
+            <label for="masculino">Masculino</label>
+            <input type="radio" value="m" name="sexo" id="masculino" required>
+        </div>
+        <div>
+            <label for="femenino">Femenino</label>
+            <input type="radio" value="f" name="sexo" id="femenino" required>
+        </div>
+        <br>
+        <div>
+            <button type="submit" style="font-size: 25px; font-family: 'Times New Roman', Times, serif; background-color: black; color: white; border-radius: 15px;">Enviar</button>
+        </div>
+        </fieldset>
+    </form>
+    </center>
+    <br>
+    <footer>
+        <h1 style="font-size: 15px;">Creador: Jaider Andrés Esparza Arenas</h1>
+    </footer>
+</body>
+</html>
